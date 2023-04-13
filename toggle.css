@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  header {
+    background-color: rgb(180, 180, 228);
+    color: white;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  .dark-mode header {
+    background-color: rgb(130, 130, 237);
+  }
+  
+  .dark-mode footer {
+    background-color: darkgray;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  button {
+    cursor: pointer;
+  }
