@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pizza Information</title>
+    <style>
+      #read-more-btn {
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        padding: 12px 24px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+      }
+      
+      #more-info {
+        display: none;
+        font-size: 18px;
+        line-height: 1.5;
+        margin-top: 24px;
+      }
+      
+      #more-info.show {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Pizza is a popular Italian dish that has become a staple food in many parts of the world. It typically consists of a round, flat base of dough that is topped with tomato sauce, cheese, and various toppings such as meat, vegetables, and herbs.</p>
+    
+    <button id="read-more-btn" onclick="document.getElementById('more-info').classList.toggle('show')">Read More</button>
+    
+    <p id="more-info">The origins of pizza can be traced back to ancient civilizations such as the Greeks, Egyptians, and Romans, who all had similar dishes made from bread and toppings. However, the modern pizza that we know today was developed in Naples, Italy in the late 18th century. The Margherita pizza, which is topped with tomato sauce, mozzarella cheese, and basil, was created in honor of Queen Margherita of Savoy in 1889 and is still a popular pizza flavor today. Pizza has since become a global phenomenon, with countless variations and regional styles found all over the world.</p>
+  </body>
+</html>

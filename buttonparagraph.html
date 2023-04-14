@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Types of Pizza</title>
+    <style>
+      #show-pizza-btn {
+        background-color: black;
+        color: white;
+        font-size: 24px;
+        padding: 12px 24px;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+      }
+
+      #pizza-info {
+        display: none;
+        font-size: 24px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <button id="show-pizza-btn">Show Pizza Info</button>
+      <p id="pizza-info">
+        There are many different types of pizza, including:
+
+        - Margherita
+        - Pepperoni
+        - Hawaiian
+        - Meat Lovers
+        - Veggie
+        - BBQ Chicken
+        - Buffalo Chicken
+        - White Pizza
+        - Deep Dish
+        - Chicago Style
+        - New York Style
+        - Neapolitan
+
+        Each type of pizza has its own unique flavor and toppings. Try them all to find your favorite!
+      </p>
+    </center>
+
+    <script>
+      const showPizzaBtn = document.getElementById("show-pizza-btn");
+      const pizzaInfo = document.getElementById("pizza-info");
+
+      showPizzaBtn.addEventListener("click", () => {
+        pizzaInfo.style.display = "block";
+      });
+    </script>
+  </body>
+</html>
